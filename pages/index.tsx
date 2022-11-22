@@ -1,3 +1,4 @@
+import { Divider } from "@mantine/core";
 import Head from "next/head";
 import Image from "next/image";
 import Header from "../components/Header";
@@ -22,7 +23,15 @@ export default function Home() {
       </p> */}
 
       <div className="text-center">
-        <h1>Coming Soon</h1>
+        <h1 className="text-4xl font-bold">Coming Soon</h1>
+        <Divider my="lg"></Divider>
+        <h3 className="text-3xl py-4">Keep up to date</h3>
+        <iframe
+          sandbox="allow-top-navigation allow-scripts"
+          width="400"
+          height="800"
+          src="https://www.mastofeed.com/apiv2/feed?userurl=https%3A%2F%2Fkolektiva.social%2Fusers%2Fsocdevassociation&theme=dark&size=100&header=true&replies=false&boosts=false"
+        ></iframe>
       </div>
     </div>
   );

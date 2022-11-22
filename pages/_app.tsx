@@ -18,7 +18,7 @@ export default function App({ Component, pageProps }: AppProps) {
     <MantineProvider
       withGlobalStyles
       withNormalizeCSS
-      theme={{ colorScheme: "dark" }}
+      theme={{ colorScheme: "dark", fontFamily: "monospace" }}
     >
       <AppShell
         padding="md"
@@ -26,7 +26,9 @@ export default function App({ Component, pageProps }: AppProps) {
           <Header height={{ base: 120 }} className="flex flex-col">
             <Link href="/" className="flex items-center flex-1 gap-4">
               <Image src="/logo.svg" width={60} alt=""></Image>
-              <Title>Socialist Developers Association</Title>
+              <Title sx={{ fontFamily: "monospace" }}>
+                Socialist Developers Association
+              </Title>
             </Link>
             {/* <Image src="/logo.svg" width={70} height={70} alt=""></Image> */}
 

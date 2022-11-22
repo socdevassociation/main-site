@@ -11,6 +11,8 @@ export default class _Document extends Document {
       <Html>
         <Head>
           <link rel="icon" href="/favicon.ico" />
+          {/* TODO: can move this to a dedicated "social" section */}
+          <a rel="me" href="https://kolektiva.social/@socdevassociation"></a>
         </Head>
         <body>
           <Main />
