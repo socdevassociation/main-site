@@ -7,14 +7,7 @@ import styles from "../styles/Home.module.css";
 
 export default function Home() {
   return (
-    <div className="font-mono">
-      <LabeledParagraph label="Who We Are">
-        We are a not-for-profit organization of leftist tech workers united
-        under the common goal of using technology to further the cause of
-        socialism. We stand for the principles of equality, solidarity,
-        cooperation, and democracy.
-      </LabeledParagraph>
-
+    <div className="font-mono flex flex-col items-center h-full justify-center">
       {/* <LabeledParagraph label="What We Do">
         We develop websites and web applications for clients who share our
         values. We also provide hosting services for these clients. We are
@@ -27,6 +20,10 @@ export default function Home() {
         challenge the notion that people will only work if they have a profit
         incentive.
       </p> */}
+
+      <div className="text-center">
+        <h1>Coming Soon</h1>
+      </div>
     </div>
   );
 }
