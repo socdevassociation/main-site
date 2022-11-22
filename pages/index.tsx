@@ -24,14 +24,14 @@ export default function Home() {
 
       <div className="text-center">
         <h1 className="text-4xl font-bold">Coming Soon</h1>
-        <Divider my="lg"></Divider>
+        {/* <Divider my="lg"></Divider>
         <h3 className="text-3xl py-4">Keep up to date</h3>
         <iframe
           sandbox="allow-top-navigation allow-scripts"
           width="400"
           height="800"
           src="https://www.mastofeed.com/apiv2/feed?userurl=https%3A%2F%2Fkolektiva.social%2Fusers%2Fsocdevassociation&theme=dark&size=100&header=true&replies=false&boosts=false"
-        ></iframe>
+        ></iframe> */}
       </div>
     </div>
   );
