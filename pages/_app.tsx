@@ -28,7 +28,7 @@ export default function App({ Component, pageProps }: AppProps) {
               href="/"
               className="flex items-center flex-1 gap-4  my-0 py-0"
             >
-              <Image src="/logo8.svg" width={80} alt=""></Image>
+              <Image src="/logo2.svg" width={80} alt=""></Image>
               <Title sx={{ fontFamily: "monospace" }}>
                 Socialist Developers Association
               </Title>
