@@ -10,7 +10,7 @@ export default class _Document extends Document {
     return (
       <Html>
         <Head>
-          <link rel="icon" href="/favicon.ico" />
+          <link rel="icon" href="/favicon5.ico" />
           {/* TODO: can move this to a dedicated "social" section */}
           <a rel="me" href="https://kolektiva.social/@socdevassociation"></a>
         </Head>

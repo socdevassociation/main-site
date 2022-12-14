@@ -23,16 +23,18 @@ export default function App({ Component, pageProps }: AppProps) {
       <AppShell
         padding="md"
         header={
-          <Header height={{ base: 120 }} className="flex flex-col">
-            <Link href="/" className="flex items-center flex-1 gap-4">
-              <Image src="/logo.svg" width={60} alt=""></Image>
+          <Header height={{ base: 120 }} className="flex flex-col pl-8">
+            <Link
+              href="/"
+              className="flex items-center flex-1 gap-4  my-0 py-0"
+            >
+              <Image src="/logo8.svg" width={80} alt=""></Image>
               <Title sx={{ fontFamily: "monospace" }}>
                 Socialist Developers Association
               </Title>
             </Link>
-            {/* <Image src="/logo.svg" width={70} height={70} alt=""></Image> */}
 
-            <div className="flex gap-8 text-2xl mb-2">
+            <div className="flex gap-8 text-2xl mb-2 mt-2">
               {/* <NavLink component="a" href="/" label="About"></NavLink>
               <NavLink component="a" href="/work" label="Work"></NavLink>
               <NavLink component="a" href="/contact" label="Contact"></NavLink> */}
